@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Complete project documentation",
+        "date": "2023-10-15",
+        "category": "Work"
+    },
+    {
+        "id": 2,
+        "name": "Fix login bug",
+        "date": "2023-10-18",
+        "category": "Development"
+    },
+    {
+        "id": 3,
+        "name": "Code review",
+        "date": "2023-10-10",
+        "category": "Review"
+    },
+    {
+        "id": 4,
+        "name": "Prepare presentation",
+        "date": "2023-10-20",
+        "category": "Work"
+    }
+]

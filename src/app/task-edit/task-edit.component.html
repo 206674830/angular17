@@ -1,0 +1,14 @@
+<td>{{ task.id }}</td>
+<td>
+  <input type="text" [(ngModel)]="task.name" />
+</td>
+<td>
+  <input type="date" [(ngModel)]="task.date" />
+</td>
+<td>
+  <input type="text" [(ngModel)]="task.category" />
+</td>
+<td>
+  <button (click)="save.emit(task)">💾 שמור</button>
+  <button (click)="cancel.emit()">❌ בטל</button>
+</td>

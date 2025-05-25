@@ -1,0 +1,9 @@
+
+   <td>{{ task.id }}</td>
+   <td>{{ task.name }}</td>
+   <td>{{ task.date | date:'shortDate' }}</td>
+   <td>{{ task.category }}</td>
+   <td>
+     <button (click)="edit.emit(task.id)">✏️ ערוך</button>
+     <button (click)="delete.emit(task.id)">🗑️ מחק</button>
+   </td>
