@@ -5,4 +5,5 @@ export interface Task {
     name: string;
     date: Date;
     category: TaskCategory;
+    remainingDays?: number | null;
 }

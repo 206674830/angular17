@@ -12,7 +12,7 @@
     </thead>
     <tbody>
         
-      @for (task of tasksService.taskList(); track task.id) {
+      @for (task of tasksService.tasksWithRemainingDay(); track task.id) {
         @if(task.id == editTaskId) { 
             <tr app-task-edit [task]="task" (cancel)="onCloseRow()" (save)="onSaveRow($event)"></tr> 
         } @else {
