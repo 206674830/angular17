@@ -5,11 +5,10 @@ import { OnInit } from '@angular/core';
 import { TaskEditComponent } from '../task-edit/task-edit.component';
 
 @Component({
-  selector: 'app-tasks-list',
-  standalone: true,
-  imports: [TaskItemComponent, TaskEditComponent ],
-  templateUrl: './tasks-list.component.html',
-  styleUrl: './tasks-list.component.scss',
+    selector: 'app-tasks-list',
+    imports: [TaskItemComponent, TaskEditComponent],
+    templateUrl: './tasks-list.component.html',
+    styleUrl: './tasks-list.component.scss'
 })
 export class TasksListComponent implements OnInit {
   editTaskId: number | null = null;
